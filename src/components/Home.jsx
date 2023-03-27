@@ -69,7 +69,7 @@ const Home = () => {
                     backSpeed={50} backDelay={2000}
                     loop className='text-4xl font-medium text-purple-700  '></Typed>
               <div className='profile flex justify-center items-center my-5 w-1/4' style={{ backgroundImage: `url(${profileBg})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
-                <img src={profileImg} className="rounded-full  " alt="" srcset="" />
+                <img src={profileImg} className="rounded-full  " alt="" srcSet="" />
               </div>
               <div className='flex justify-center'>
                 <p className=' text-center px-1 w-full sm:w-3/4 '>Intend to build a career with a leading corporate environment which will help me explore myself fully and realize my potential.</p>
