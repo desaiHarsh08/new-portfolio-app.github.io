@@ -8,7 +8,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import myResume from '../assets/Resume - HarshNileshDesai (2).docx';
 
 const Home = () => {
@@ -65,9 +65,10 @@ const Home = () => {
             <div className='h-full  flex flex-col  gap-5 sm:gap-2 justify-center items-center '>
               <h1 className='text-2xl  my-3 font-medium'>Hi there, I'm</h1>
 
-              <Typed strings={['Harsh Nilesh Desai']} typeSpeed={40}
-                    backSpeed={50} backDelay={2000}
-                    loop className='text-4xl font-medium text-purple-700  '></Typed>
+              {/* <Typed strings={['Harsh Nilesh Desai']} typeSpeed={40}
+                backSpeed={50} backDelay={2000}
+                loop className='text-4xl font-medium text-purple-700  '></Typed> */}
+                <h2 className='text-4xl font-medium text-purple-700  '>Harsh Nilesh Desai</h2>
               <div className='profile flex justify-center items-center my-5 w-1/4' style={{ backgroundImage: `url(${profileBg})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
                 <img src={profileImg} className="rounded-full  " alt="" srcSet="" />
               </div>
