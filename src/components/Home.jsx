@@ -9,7 +9,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import Typed from 'react-typed';
-import myResume from '../assets/Resume - HarshNileshDesai (2).docx';
+import myResume from '../assets/Resume - HarshNileshDesai (2).pdf';
 
 const Home = () => {
   return (
