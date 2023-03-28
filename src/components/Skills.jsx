@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div id='skills' className='flex flex-col items-center  py-7 mb-20 '>
       <h2 className='text-3xl font-semibold text-center mb-9 '>Skills</h2>
-      <div className='w-3/4'>
+      <div className='px-3 w-full md:w-3/4'>
         <ul className='w-full'>
           <li className='w-full my-3 flex flex-col gap-2'>
             <div>
